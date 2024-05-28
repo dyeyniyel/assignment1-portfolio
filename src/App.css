@@ -92,22 +92,31 @@ label {
 }
 
 .about p img{
-  width: 250px;
-  float: left;
-  margin-right: 15px;
+  width: 400px;
+  float: right;
+  margin-right: 10px;
+}
+
+.about p {
+  font-size: 32px; 
 }
 
 .portfolio-intro {
-  font-size: 24px; /* adjust size as needed */
+  font-size: 24px; 
 }
 
 .mission-statement {
-  margin-top: 80px; /* adjust size as needed */
+  margin-top: 80px;
 }
 
 .get-to-know-me-link {
   display: block;
-  margin-top: 60px; /* adjust size as needed */
-  color: #080835; /* pale lavender */
-  text-decoration: underline; /* makes it obvious it's a link */
+  margin-top: 60px; 
+  color: #080835;
+  text-decoration: underline; 
+}
+
+.page-title {
+  font-size: 44px; 
+  text-align: center;
 }

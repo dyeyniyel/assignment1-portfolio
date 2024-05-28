@@ -4,6 +4,7 @@ import Home from './components/Home';
 import './src/App.css'
 import Layout from './components/Layout';
 import Footer from './components/Footer';
+import About from './src/about';
 
 
 
@@ -14,6 +15,7 @@ const MainRouter = () => {
                 <div className="main-body">
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/about" element={<About/>}/>
                 </Routes>
                 </div>
             <Footer/>
