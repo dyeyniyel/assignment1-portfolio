@@ -1,37 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
@@ -39,4 +6,102 @@
 
 .read-the-docs {
   color: #888;
+}
+
+a {
+  padding: 10px;
+}
+
+body {
+  padding: 0;
+  margin:0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/**
+Main
+*/
+
+.main-body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-container 
+{
+  display: flex;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.project img {
+  max-width: 400px;
+  width: 400px;
+}
+
+.about p img{
+  width: 250px;
+  float: left;
+  margin-right: 15px;
+}
+
+#welcome-text {
+  text-align: center;
+
+}
+
+#about-me-link {
+  display: block;
+  text-align: center;
+  margin-top: 50px
 }
