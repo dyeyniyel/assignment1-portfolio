@@ -29,11 +29,12 @@ Main
   min-height: 100vh;
   flex-direction: column;
   padding: 2em;
+  background-color: #4b4949
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #191970;
   display: flex;
   align-items: center;
 }
@@ -41,13 +42,14 @@ Main
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: #ffffff;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 25px;
   border-radius: 4px;
+
 }
 
 /* Float the link section to the right */
@@ -80,8 +82,8 @@ label {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .project img {
@@ -95,13 +97,17 @@ label {
   margin-right: 15px;
 }
 
-#welcome-text {
-  text-align: center;
-
+.portfolio-intro {
+  font-size: 24px; /* adjust size as needed */
 }
 
-#about-me-link {
+.mission-statement {
+  margin-top: 80px; /* adjust size as needed */
+}
+
+.get-to-know-me-link {
   display: block;
-  text-align: center;
-  margin-top: 50px
+  margin-top: 60px; /* adjust size as needed */
+  color: #080835; /* pale lavender */
+  text-decoration: underline; /* makes it obvious it's a link */
 }
