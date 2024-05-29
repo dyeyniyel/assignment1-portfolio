@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import About from './src/about';
 import Contact from './src/contact';
 import Project from './src/projects';
+import Services from './src/services';
 
 
 const MainRouter = () => {
@@ -19,6 +20,7 @@ const MainRouter = () => {
                     <Route exact path="/about" element={<About/>}/>
                     <Route exact path="/contact" element={<Contact/>}/>
                     <Route exact path="/projects" element={<Project/>}/>
+                    <Route exact path="/services" element={<Services/>}/>
                 </Routes>
                 </div>
             <Footer/>
