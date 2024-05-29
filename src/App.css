@@ -88,10 +88,7 @@ label {
   height: 80px;
 }
 
-.project img {
-  max-width: 400px;
-  width: 400px;
-}
+
 
 .about p img{
   width: 400px;
@@ -138,4 +135,39 @@ label {
 .contact-info {
   flex-shrink: 0;
   margin-right: 100px;
+}
+
+/* projects*/
+.project {
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items to next line when container width is exceeded */
+  gap: 20px; /* Space between each project */
+}
+
+.project-item {
+  flex: 0 0 calc(33.33% - 20px); /* Set each item to occupy one-third of the container width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+  text-align: center;
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-details {
+  max-width: 100%;
+  text-align: left; /* Align text to the left within project details */
 }
