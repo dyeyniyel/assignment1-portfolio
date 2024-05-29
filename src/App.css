@@ -70,11 +70,13 @@ Main
 {
   display: flex;
   justify-content: space-between;
+  
 }
+
 .input-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 label {
@@ -119,4 +121,21 @@ label {
 .page-title {
   font-size: 44px; 
   text-align: center;
+  margin-top: 10px;
+}
+
+.box {
+
+  border: 3px solid black;
+  padding: 10px; /* Reduced padding */
+  margin: 10px;
+  display: inline-block; /* This will make the div only as wide as its contents */
+  width: fit-content; /* This will allow the div to shrink to the width of its contents */
+  height: fit-content;
+  /* Ensure height fits content */
+}
+
+.contact-info {
+  flex-shrink: 0;
+  margin-right: 100px;
 }

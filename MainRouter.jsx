@@ -5,7 +5,7 @@ import './src/App.css'
 import Layout from './components/Layout';
 import Footer from './components/Footer';
 import About from './src/about';
-
+import Contact from './src/contact';
 
 
 const MainRouter = () => {
@@ -16,6 +16,7 @@ const MainRouter = () => {
                 <Routes>
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/about" element={<About/>}/>
+                    <Route exact path="/contact" element={<Contact/>}/>
                 </Routes>
                 </div>
             <Footer/>
