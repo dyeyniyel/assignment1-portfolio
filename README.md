@@ -1,8 +1,7 @@
 Personal Portfolio documentation
 
 Homepage:
-![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/8ae664ed-09f3-42d9-aa87-15eacc5363e9)
-
+![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/34da71ac-4fe4-43fb-b730-58d3741875c6)
 
 About Me:
 ![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/3e6b9f5d-5be1-4ccc-a6c4-4f15fda8449e)
