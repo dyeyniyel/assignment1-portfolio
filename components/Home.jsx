@@ -1,3 +1,10 @@
+/*
+File name: components/Home.jsx
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
+
 import { Link } from 'react-router-dom';
 import '../src/home.css'
 

@@ -1,0 +1,27 @@
+/*
+File name: src/about.css
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
+
+/* Layout or formatting for the About Me page*/ 
+.about {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about p img{
+    width: 400px;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .about p {
+    font-size: 32px; 
+  }
+  
+  
+
+  
+  
+  

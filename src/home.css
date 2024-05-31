@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+File name: src/home.css
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
 
+/* Layout or formatting for the Home page*/
 #intro {
     height: calc(100vh -3em);
     width: 100vw;
@@ -30,7 +36,7 @@
 .introName {
     color: rgb(166, 188, 221);
     font-size:1.75em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium';
 }
 
 .jobTitle {

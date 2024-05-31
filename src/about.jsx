@@ -1,5 +1,14 @@
-import './App.css';
+/*
+File name: src/about.jsx
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
 
+import './App.css';
+import './about.css';
+
+//About Me component
 export default function About() {
     return (
         <>
@@ -16,7 +25,7 @@ export default function About() {
                     </p>
                     <br></br>
                     <p>
-                        Currently a student of Centennial College under the Software Engineering Technology program
+                        Currently a student of Centennial College under the Software Engineering Technology program (Fast-track)
                     </p>
                     <br></br>
                     <p>

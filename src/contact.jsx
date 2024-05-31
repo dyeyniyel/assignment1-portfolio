@@ -1,8 +1,19 @@
+/*
+File name: src/contact.jsx
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
+
 import React, { useState } from 'react';
 import './App.css';
+import './contact.css';
 
+
+//Contact Me component of the portfolio
 const Contact = () => {
 
+    //using useState hook for form
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -11,17 +22,21 @@ const Contact = () => {
         message: ''
     });
 
+    //handling form input changes
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
 
+    //function to handle submission
     const handleSubmit = (e) => {
         e.preventDefault();
-        window.alert('Form submitted successfully. Thank you for contacting me!'); // New line
-        window.location.href = '/';
+        window.alert('Form submitted successfully. Thank you for contacting me!'); // popup message displayed after submission
+        window.location.href = '/'; //once submitted, redirected to homepage
     };
     
+
+    //rendering contact component
     return (
         <>
         <h2 className="page-title">Contact Me</h2>

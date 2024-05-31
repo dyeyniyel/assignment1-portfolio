@@ -1,4 +1,9 @@
-
+/*
+File name: src/App.css
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
 
 .card {
   padding: 2em;
@@ -66,26 +71,6 @@ Main
   padding: 10px;
 }
 
-.contact-container 
-{
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.input-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-
-}
-
-.input-container input{
-    height: 35px; /* Adjust as needed */
-}
-.input-container textarea{
-  height: 100px; /* Adjust as needed */
-}
 
 
 label {
@@ -98,115 +83,9 @@ label {
 }
 
 
-
-.about p img{
-  width: 400px;
-  float: right;
-  margin-right: 10px;
-}
-
-.about p {
-  font-size: 32px; 
-}
-
-.portfolio-intro {
-  font-size: 24px; 
-}
-
-.mission-statement {
-  margin-top: 80px;
-}
-
-
 .page-title {
   font-size: 44px; 
   text-align: center;
   margin-top: 10px;
 }
 
-.box {
-
-  border: 3px solid black;
-  padding: 10px; /* Reduced padding */
-  margin: 20px;
-  display: inline-block; /* This will make the div only as wide as its contents */
-  width: fit-content; /* This will allow the div to shrink to the width of its contents */
-  height: fit-content;
-  /* Ensure height fits content */
-}
-
-.contact-info {
-  flex-shrink: 0;
-  margin-right: 100px;
-}
-
-/* projects*/
-.project {
-  padding: 20px;
-}
-
-.page-title {
-  text-align: center;
-}
-
-.project-container {
-  display: flex;
-  flex-wrap: wrap; /* Wrap items to next line when container width is exceeded */
-  gap: 20px; /* Space between each project */
-}
-
-.project-item {
-  flex: 0 0 calc(33.33% - 20px); /* Set each item to occupy one-third of the container width */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px; /* Space between image and text */
-  text-align: center;
-}
-
-.project-item img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.project-details {
-  max-width: 100%;
-  text-align: left; /* Align text to the left within project details */
-}
-
-
-/* services*/
-.services {
-  padding: 20px;
-}
-
-.services-title {
-  text-align: center;
-}
-
-.services-container {
-  display: flex;
-  flex-wrap: wrap; /* Wrap items to next line when container width is exceeded */
-  gap: 20px; /* Space between each project */
-}
-
-.services-item {
-  flex: 0 0 calc(33.33% - 20px); /* Set each item to occupy one-third of the container width */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px; /* Space between image and text */
-  text-align: center;
-}
-
-.services-item img {
-  max-width: 90%;
-  height: auto;
-  object-fit: cover;
-}
-
-.services-details {
-  max-width: 100%;
-  text-align: left; /* Align text to the left within project details */
-}

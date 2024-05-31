@@ -1,3 +1,10 @@
+/*
+File name: src/services.css
+Student Name: Janiel Mark Javier
+Student ID: 301379377
+Date: 05/31/2024
+*/
+
 import React from 'react';
 import servicesimg1 from '../src/assets/data-analytics.jpg'
 import servicesimg2 from '../src/assets/app-support.jpg'
@@ -7,7 +14,9 @@ import servicesimg5 from '../src/assets/soft-dev.jpg'
 import servicesimg6 from '../src/assets/web-dev.jpg'
 
 import './App.css';
+import './services.css';
 
+//Services component of the portfolio
 const Services = () => {
     const services = [
         
@@ -53,6 +62,7 @@ const Services = () => {
                 }
             ];
         
+//rendering services component            
             return (
                 <div className='services'>
                     <h2 className="page-title">Services</h2>
