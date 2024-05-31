@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#intro {
+    height: calc(100vh -3em);
+    width: 100vw;
+    max-width: 75em;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    font-size:medium;
+    }
+
+.homeIntro {
+    height: 50vh;
+    width: 100vw;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.homeHello {
+    font-size: 1em;
+    font-weight:200;
+
+}
+
+.introName {
+    color: rgb(166, 188, 221);
+    font-size:1.75em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.jobTitle {
+    font-size: 1em;
+    font-weight: 200; 
+    font-style: italic;
+}
+
+.mission-statement {
+    font-size:40px;
+    font-weight: 100;
+}
+
+.get-to-know-me-link {
+    display: block;
+    margin-top: 60px; 
+    color: #4c75de;
+    text-decoration: underline; 
+  }
+  

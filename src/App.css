@@ -76,8 +76,17 @@ Main
 .input-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+
 }
+
+.input-container input{
+    height: 35px; /* Adjust as needed */
+}
+.input-container textarea{
+  height: 100px; /* Adjust as needed */
+}
+
 
 label {
   margin-bottom: 5px;
@@ -108,12 +117,6 @@ label {
   margin-top: 80px;
 }
 
-.get-to-know-me-link {
-  display: block;
-  margin-top: 60px; 
-  color: #080835;
-  text-decoration: underline; 
-}
 
 .page-title {
   font-size: 44px; 
@@ -125,7 +128,7 @@ label {
 
   border: 3px solid black;
   padding: 10px; /* Reduced padding */
-  margin: 10px;
+  margin: 20px;
   display: inline-block; /* This will make the div only as wide as its contents */
   width: fit-content; /* This will allow the div to shrink to the width of its contents */
   height: fit-content;
