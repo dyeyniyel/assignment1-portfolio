@@ -14,7 +14,8 @@ Services:
 ![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/cced7090-c7b5-44d0-9a56-ee1736cdfd06)
 
 Contact Me:
-![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/979c4950-fafe-4f64-8ad6-701cab97c640)
+![image](https://github.com/dyeyniyel/assignment1-portfolio/assets/158533198/41dfbdbe-8d84-4b9e-990d-ca3908b84ed0)
+
 
 
 After populating:
